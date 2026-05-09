@@ -1,0 +1,11 @@
+.box-container {
+
+    width: 600px;
+    text-align: center; 
+    padding: 20px;
+
+
+    border: 10px solid rgb(255, 0, 170);
+    margin: 50px;
+    background-color: rgb(3, 170, 87); 
+}

@@ -1,0 +1,20 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: Acme;
+
+    background-image: url("crowd.png");
+    background-size: cover;
+
+}
+
+#illitImage {
+    width: 400px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#illitImage:active {
+    transform: scale(0.9);
+
+}
