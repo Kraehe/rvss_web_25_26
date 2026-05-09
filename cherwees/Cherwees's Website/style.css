@@ -1,0 +1,119 @@
+.test1{
+            border: 5px outset #6bb6f3c9;
+            background-color: rgba(106, 114, 238, 0.979);
+        }
+        body{ 
+            background-color: #bbabf7;
+        }
+        .endoftime{
+
+            background-color: #9f8fff; 
+        }
+        .center{
+            text-align: center;
+        }
+        #purple_time{
+            color: rgb(13, 184, 184);
+            background-color: rgb(102, 121, 206);
+        }
+        .navbar{ 
+           +
+           width: 3000px;
+            height: 100px;
+             background-color: rgba(27, 156, 156, 0.849); 
+        margin-bottom: 100px;}
+        .navbar h1{
+            color: #bbabf7;
+            margin: 0px;
+
+
+        }
+        footer{
+ display: flex;
+  background-color: rgba(0, 255, 255, 0.801);
+height: 100px;
+}
+.box-container{
+width:350px;
+text-align:center;
+padding: 20px;
+border: 10px navy;
+margin: 50px;
+}
+
+.us_flag
+
+.flag_stripe{
+width: 33.35;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class= "flag_stripe white"></div>
+      <div class= "flag_stripe red"></div>
+      <div class= "flag_stripe white"></div>
+      <div class= "flag_stripe red"></div>
+      <div class= "flag_stripe white"></div>
+      <div class= "flag_stripe red"></div>
+      <div class= "flag_stripe white"></div>
+      <div class= "flag_stripe red"></div>
+      <div class= "flag_stripe white"></div>

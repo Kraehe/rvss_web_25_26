@@ -1,0 +1,20 @@
+body{
+/* text settings */
+color: rgb(22, 36, 224);
+text-align: center;
+font-family: Arial;
+
+background-image: url("bluelockstadium.jpg");
+background-size: 100% 100%;
+
+margin-top: 50px;
+}
+
+/* ball "movement" */
+#ballImage:active {
+    transform: scale(0.9);
+}
+
+#lockoff{
+   
+}
