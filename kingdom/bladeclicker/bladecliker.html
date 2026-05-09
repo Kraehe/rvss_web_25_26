@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #back-to-proj {
+            position: fixed;
+            bottom:15%;
+            right: 1%;
+            z-index: 99%; 
+            height :5%;
+            width: 5%;
+            background-color: greenyellow;
+            border-radius: 30px;
+              
+        }
+
+    </style>
+</head>
+
+<body>
+
+     <a href="../portfolio/projects.html">
+                <button id="back-to-proj">Back to Projects</button>
+            </a>
+
+
+    <body onload="setup()">
+
+
+
+
+        <h2>Blade Clicker </h2>
+        <p>Rage Points:</p>
+        <h2 id="total_ragepoints">0</h2>
+        <img src="Victorious_Rageblade.png" id="ragebladeImage" onclick="clickRageblade()" />
+        <button style="display:block;" id="upgrade" button>
+            <button>Buy Auto-Clicker = 100 Clicks</button>
+
+            <p>Rage Power:</p>
+            <h2 id="rage_power"></h2>
+            <button onclick="BuyRagePower()">
+                <span id="rage_power_buy" class="level"></span>
+                <br>
+                <span id="rage_power_cost" class="cost"></span>
+
+            </button>
+
+            <p>Rage Per Second:</p>
+            <h2 id="ragepoints_per_second"></h2>
+            <button onclick="add_ragepoints_per_second()">+1 Rage per second</button>
+
+
+
+           
+
+            <script src="script.js"></script>
+    </body>
+
+</html>

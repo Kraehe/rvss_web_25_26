@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+    <link rel="stylesheet" href="style.css">
+     <style>
+        #back-to-proj {
+            position: fixed;
+            bottom:15%;
+            right: 1%;
+            z-index: 99%; 
+            height :5%;
+            width: 5%;
+            background-color: red;
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Forms and Input</h1>
+
+     <form action="">
+       <label for="name">Name:</label>
+       <input type="text" id="name" value="Your name here"/>
+       <br>
+
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" value="example@mail.com"/>
+       <br>
+
+       <label for="comm">Comment:</label>
+       <textarea name="comm" id="comm">Type your comment here</textarea>
+        <br>
+       <button type="button" onclick="submitForm(this.form)">Send Comment</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+    <a href="../portfolio/projects.html">
+                <button id="back-to-proj">Back to Projects</button>
+            </a>
+</body>
+</html>

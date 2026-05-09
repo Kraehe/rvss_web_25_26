@@ -1,0 +1,22 @@
+body {
+
+    color: white;
+    text-align: center;
+    font-family: Arial;
+
+    background-image: url("https://i.redd.it/n9mb024rltb81.jpg");
+    background-size: cover;
+
+    margin-top: 50px;
+
+}
+
+#ragebladeImage {
+    width: 400px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#ragebladeImage:active {
+    transform: scale(0.9);
+}
