@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.A67{
+border-style:dashed ;
+border-color: darkred;
+}
+
+#Song2{
+    border-style: dashed;
+    border-color :green;
+}
+
+.Song4Blue{
+    border-style: dashed;
+    border-color :rgb(124, 187, 22);
+}
+
+    .Song3{
+    border-style: dashed;
+    border-color :rgb(124, 187, 22);
+}
+
+
+.green{
+    background-color: darkgreen;
+}
+
+
+.square{
+background-color: green;
+height: 500px;
+margin-top :25%;
+}
+
+.navbar{ 
+    display: flex;
+    width: 2000px;
+    height: 100pxp;
+    background-color: teal;
+    margin-bottom: 50px;
+    
+}
+.emotions{
+    
+}

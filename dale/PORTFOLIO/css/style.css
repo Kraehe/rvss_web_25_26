@@ -1,0 +1,192 @@
+/* =========================================
+   PORTFOLIO STYLES
+   Change the colors, fonts, and spacing
+   to make it your own!
+   ========================================= */
+
+/* ----- COLOR + FONT VARIABLES -----
+   Change these and the whole site updates! */
+:root {
+  --main-color: #a200ff;       /* navbar + accent color */
+  --bg-color: #f8f8f8;          /* background of the page */
+  --text-color: #222;           /* main text color */
+  --card-color: #ffffff;        /* background of cards */
+  --main-font: 'Helvetica', sans-serif;
+}
+
+/* ----- BASE STYLES ----- */
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* ----- NAVBAR ----- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  padding: 15px 30px;
+}
+
+.nav-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* "active" class shows which page you're on */
+.nav-links a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* ----- HERO SECTION (homepage) ----- */
+.hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: var(--main-color);
+  font-style: italic;
+}
+
+/* ----- LINK CARDS (homepage) ----- */
+.link-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.link-card {
+  flex: 1;
+  min-width: 200px;
+  background-color: var(--card-color);
+  padding: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.link-card:hover {
+  transform: translateY(-4px);
+}
+
+/* ----- ABOUT PAGE ----- */
+.about {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--main-color);
+}
+
+.bio {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.interests {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.interests li {
+  background-color: var(--card-color);
+  padding: 10px 18px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* ----- PROJECTS PAGE ----- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: #eee; /* shows if image is missing */
+}
+
+.project-link {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--main-color);
+  color: white;
+  margin-top: 40px;
+}
