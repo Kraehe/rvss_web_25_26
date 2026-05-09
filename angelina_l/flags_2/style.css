@@ -1,0 +1,78 @@
+/* CSS for flag goes here */
+body {
+    background-color:#965f55;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+   
+    
+}  
+
+.france_flag {  
+    display: grid;
+      grid-template-columns: auto auto auto;
+
+    width: 600px;
+    height: 300px;
+
+    background-color: orange;
+    margin: 50px;
+}
+.red{
+    background-color: red;
+    color: red;
+} 
+.white{
+    background-color: white;
+    color: white;
+}
+
+.navyblue{
+    background-color: rgb(5, 5, 61);
+    color:rgb(5, 5, 61);
+
+}
+
+.flag_stripe{ 
+    width:200px;
+    height: 300px;
+    
+}
+.iceland_flag{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(207, 40, 40);
+}
+.iceland_blue{
+    background-color: rgb(45, 77, 182);
+    /* position: absolute; */
+}
+.iceland_white{
+    background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+}
+
+
+
+
+
+
+
+
+.japan_flag{
+    width: 600px;
+    height: 400px;
+    background: white;
+    margin: 50px;
+}
+.japan_dot{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 240px;
+    width: 240px;
+    background-color: red;
+    border-radius: 120px;
+}

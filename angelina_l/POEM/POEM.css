@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(245, 173, 106);
+    color: rgb(121, 12, 12);
+   .indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+}
+.navbar h1{ 
+    border: 5px dashed rgb(77, 19, 19);
+    background-color: rgb(224, 128, 84);
+    height: 330px;
+    width: 3000px;
+    margin-bottom: 250px;
+    font-family:  "Indie Flower", cursive;
+    margin: 0px;
+}
+
+a href{
+    color: chocolate;
+    background-color: brown;
+}
+
+.footer{
+    margin-left: auto;
+    border: 5px dashed rgb(77, 19, 19);
+background-color:  rgb(224, 128, 84);
+margin-bottom: 20px;
+height: 330px;
+width: 3000px;
+display: flex;
+padding: 10px;
+justify-content: center;
+flex-direction:row;
+}
+
+.footer{
+    margin-left: auto;
+color: rgb(0, 0, 0);
+margin: 0px;
+
+
+padding: 20px;
+}

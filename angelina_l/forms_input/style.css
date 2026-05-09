@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+background-image: url(https://wallpaperbat.com/img/68751483-brown-aesthetic-wallpaper.jpg);
+    padding: 15px;
+    border-style: dashed;
+    border: 15px solid;
+    border-color: burlywood;
+    border-radius: 2em;
+}
+
+label{
+    display: inline-block;
+
+    min-width: 90px;
+    text-align: right;
+}
+
+textarea{
+    font:1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline-style: solid;
+    outline-color:rgb(0, 0, 0);
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
