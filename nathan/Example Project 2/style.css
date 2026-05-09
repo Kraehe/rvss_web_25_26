@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(141, 100, 175);
+    text-align: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+} 
+p{
+    color: rgb(183, 160, 189);
+}
+
+.flag{
+   margin: 50px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.flag_stripe{
+    width: 33.3%;
+    height: 100%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.flag_stripe_row{
+    width: 100%;
+    height: 33.3%;
+}
+
+.yellow{
+    background-color: yellow;
+    font-size: 120px;
+     line-height: 0.9;
+}
+
+.black{
+    background-color: black;
+}
+
+.green{
+    background-color: rgb(3, 82, 3);
+}
+
+
+.togo_stripe{
+    width: 100%;
+    height: 20%;
+}
+.togo_green{
+    background-color: green;
+}
+.togo_yellow{
+    background-color: yellow;
+}
+.togo_red{
+    /* position:absolute; */
+    top:0;
+    left:0;
+    background-color: red;
+    color: white;
+    height: 180px;
+    width: 180px;
+    font-size: 100px;
+    margin-top: -300px;
+}
