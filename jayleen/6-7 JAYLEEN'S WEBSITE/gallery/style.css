@@ -1,0 +1,12 @@
+.box-container{
+    /*1. size of the elemnt content*/
+    width: 800px;
+    text-align: center; 
+    /*2. padding: Space INSIDE the box (between image and border)*/
+    padding: 20px;
+    /*3. border: frame around the padding*/
+    border: 10px solid rgb(84, 13, 177);
+    /*4. margin: Space OUTSIDE the box (pushes other things away)*/
+    margin: 50px;
+    background-color: rgb(191, 122, 255);
+}

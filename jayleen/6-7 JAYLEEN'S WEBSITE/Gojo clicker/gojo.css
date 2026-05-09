@@ -1,0 +1,24 @@
+ body{
+            /* text settings */
+            color: white;
+            text-align: center;
+            font-family: Arial;
+            /* background image settings */
+            background-image: url(https://motionbgs.com/media/5971/gojo-hollow-purple.jpg);
+            background-size: cover;
+            /* spacing */
+            margin-top: 50px;
+        }
+
+#GojoImage {
+
+    width: 400px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+        /* coin "movement" */
+        #GojoImage:active {
+            transform: scale(0.9);
+        }

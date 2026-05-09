@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(155, 19, 19);        
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+.pixelify-sans-uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+  
