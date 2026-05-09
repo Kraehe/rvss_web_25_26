@@ -1,0 +1,54 @@
+body {
+    /* text settings */
+    color: white;
+    text-align: center;
+    font-family: Arial;
+
+    /* background image settings */
+    background-image: url(  "freindsheainan.jpeg");
+    background-size: 100% 100%;
+
+    /* spacing */
+    margin-top: 50px;
+
+    /* font */
+    font-family: "Jua";
+}
+
+
+/* fried chekien */
+#friedchekien {
+    width: 400px; height: 400px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+ #friedchekien:active {
+    transform: scale(0.9);
+ }
+  
+.chekien_board {
+    /* background: #CE871D; */
+    background: #EFC185;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sub_board{
+    display:flex;
+
+}
+
+.sub_board_items{
+    flex-direction: column;
+    display: flex;
+    background: white;
+    color: #CE871D;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+      

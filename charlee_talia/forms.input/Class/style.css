@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    padding: 10px;
+
+
+    border: 1px solid #f4b3e5;
+    border-radius: 1em;
+}
+
+label{
+    display: inline-block;
+
+    min-width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em san-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #c9a2f3;
+}
+
+input:focus,
+textarea:focus {
+    outline-style: solid;
+    outline-color: #c9a2f3;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}

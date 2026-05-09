@@ -1,0 +1,107 @@
+.test1 {
+	border:5px outset pink;
+	background-color:#BAB3D4;
+	text-align: center;
+	color: pink;
+}
+.test2 {
+border:5px outset pink;
+background-color: #F8F8F8;
+text-align: center;
+color:pink
+
+}
+#story {
+border:5px outset pink;
+background-color: #F8F8F8;
+text-align: center;
+color: #ee87a6;
+font-family: Verdana, sans-serif;
+}
+body {
+	background-color: white;
+}
+h1{
+	color:rgb(209, 192, 255);
+}
+
+.chanel {
+border:5px outset #F2B9DF;
+background-color: #F8F8F8;
+text-align: center;
+color: #cc4982;
+font-family: Verdana, sans-serif;
+}
+.airplane {
+border:5px outset #F2B9DF;
+background-color: #F8F8F8;
+text-align: center;
+color: #cc4982;
+font-family: Verdana, sans-serif;
+}
+/* .test3{
+	background-color: rgb(165, 78, 78);
+	color: white;
+	height: 300px;
+	width: 300px;
+	padding: 30px;
+	margin:30px;
+	border: 130px solid #000000;
+} */
+.box-container{
+	width:350px;
+	text-align: center;
+	padding: 20px;
+	border: 10px rgb(64, 75, 228) solid;
+	margin: 50px;
+	background-color: #6277ec;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+}
+.black{
+	background-color: rgb(62, 119, 224);
+ 
+	padding:1px;
+}
+  .flag-container{
+  background-color: rgb(53, 119, 224);
+  }
+
+  .us_flag{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 500px;
+	/* background-color: orange; */
+
+
+  }
+  
+  .stripes{
+	width: 500px;
+	height: 100px;
+  }
+  .red{
+	background-color: red;
+  }
+  .white{
+	background-color: white;
+  }
+
+.star_box{
+	position: absolute;
+	height: 53.9%;
+	width: 40%;
+}
+.blue{
+     background-color: #0A3161;
+}
+
+.black{
+	background-color: black;
+}   
+
+.yellow{
+	background-color: yellow;
+
+}
+  

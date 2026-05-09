@@ -1,0 +1,66 @@
+<html lang="en">
+    <head>
+        <title> Friedchekien Clicker </title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <div class="chekien_board">
+            <h1>🍗🐔 Chekien Hut 🔥🍗</h1>
+            <br>
+            
+            <p id="score">0</p>
+
+            <img src="Friedchekien.webp" id="Friedchekien" height="150px" onclick="friedchekienClicked()"></img>
+            
+
+            <br>
+
+            <div class=sub_board>
+                <div class="sub_board_items">
+                    <h4> 💥Click Power💛 </h4>
+                    <h4 id="click_power"></h4>
+
+                    <button onclick="buyClickPower()"> 
+                        <span id="click_power_buy"></span>
+                        <br>
+                        <span id="click_power_cost"></span>
+                    </button>
+
+                </div>
+
+                <div class="sub_board_items">
+                    <h4> 💥Wendys💛 </h4>
+                    <h4 id="wendys_total"></h4>
+                    <button onclick="buyWendys()"> 
+                        <span id="wendys_buy"></span>
+                        <br>
+                        <span id="wendys_cost"></span>
+                    </button>
+                </div>
+                <div class="sub_board_items">
+                    <h4> 💥kfc💛 </h4>
+                    <h4 id="kfc_total"></h4>
+                    <button onclick="buyKFC()"> 
+                        <span id="kfc_buy"></span>
+                        <br>
+                        <span id="kfc_cost"></span>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
