@@ -1,0 +1,93 @@
+.test1{
+border: 5px outset rebeccapurple;
+background-color: rgb(176, 144, 206);
+text-align: center;
+}
+
+body {
+    background-color: #cce093;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+h1 {
+    color:rgb(145, 117, 173);
+}
+.song{
+    background-color: rgb(178, 231, 185);
+    color: rgb(159, 30, 185);
+    border: 0.5cm dashed rgb(194, 123, 135);
+        font-family:  Georgia, serif;
+        text-align: center;
+        
+}
+.square{
+    background-color: blue;
+    height: 500px;
+    width: 400px;
+    margin-left: 25%;
+}
+    
+    
+.navbar{
+    display: flex;
+    /* height: 100px; */
+    background-color: rgb(202, 162, 202);
+    margin-bottom: 55px;
+    color: #e69bc7;
+    
+}
+.navbar h1{
+    margin: 0px;
+    padding: 20px;
+}
+.navbar img{
+    margin: 0px;
+    /* padding: 20px; */
+}
+.footer{
+    display: flex;
+    background-color: #e69bc7;
+    margin-top: 50px;
+    height: 150px;
+}
+.footer >*{
+    color: #c174c4;
+    margin: 0px;
+    padding: 20px;
+}
+.flag {
+    display:flex;
+    width: 500px;
+    height: 400;
+    margin: auto;
+}
+
+.blue {
+background-color: blue;
+
+}
+
+
+.white{
+    background-color: white;
+}
+
+
+
+.red{
+    background-color: red;
+
+
+}
+
+.box-container{
+    width:1500px;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid purple;
+    margin:50p
+    
+
+
+}

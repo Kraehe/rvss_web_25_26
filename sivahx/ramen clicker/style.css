@@ -1,0 +1,20 @@
+body{
+    color: rgb(158, 111, 180);
+    text-align:center;
+    font-family: sans-serif;
+
+    /*background image settings*/ 
+    background-image:url("strawberryy.jpg");
+    background-size: cover;
+
+    /*spacing*/
+    margin-top:50px;
+}
+#ramen{
+    height: 200px;
+    cursor: pointer;
+    text-align: center;
+}
+#ramen:active{
+    transform: scale(.95);
+}
