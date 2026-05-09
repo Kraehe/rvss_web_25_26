@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>  Rosario's Website  </title>
+    <link rel="stylesheet" href="cookie.css">
+
+</head>
+<body onload="setup()">
+<body>
+    <div class="pan">
+        <h3>Welcome to my website</h3>
+        <h1> Pizza Clicker</h1>
+        <h2> Click the pizza to get points </h2>
+        <h2> Pizza: </h2>
+        <h2 id="pizza_count"></h2>
+
+        <h3>Pizza Power</h3>
+        <p id="pizza_power"></p>
+        <button onclick="add_pizza_power()"> Add Pizza Power</button>
+
+        <h3>Click Per Second</h3>
+        <p id="pizza_per_second"></p>
+        <button onclick="add_pizza_per_second()"> Add Pizzas Per Second</button>
+        <br>
+        
+
+    </div>
+
+
+ 
+<button onclick="pizza_clicked()" id="pizza_button">
+    <img src= "Pizza.png" id= "pizza" >
+</button>
+
+<script src="cookie.js"></script>
+
+
+</body>
+<p>Pizza:</p><span id="score">0</span>
+</html>
+
+
+
+
+
+
+

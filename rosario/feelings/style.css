@@ -1,0 +1,12 @@
+body {
+background-color:lightskyblue;
+}
+
+button {
+    background-color:navy;
+    color:aliceblue
+}
+.emotions { background-color:lightsteelblue;
+    border: 2px solid midnightblue;
+    border-radius: 5px;
+}
