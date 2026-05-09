@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    padding: 10px;
+
+
+
+    border: 1px solid #1411a4cc;
+    border-radius: 1em;
+}
+
+label {
+    display: inline-block;
+
+    min-width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1 px solid #99999;
+}
+
+
+
+
+input:focus textarea:focus {
+    outline
+}
